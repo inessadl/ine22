@@ -15,15 +15,15 @@ body {
 }
 
 main {
+  color: #1a1b1f;
   flex: 1;
   display: grid;
   grid-template-columns: 10% 20% 20% 20% 20% 10%;
   row-gap: 40px;
-  background-color: cadetblue;
 }
 
 main section {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: auto;
 }
 
@@ -46,11 +46,34 @@ main section {
   grid-column-start: 2;
   grid-column-end: 6;
   grid-row-start: 1;
-  background-color:burlywood;
 }
 
-.project {
-  border: 2px solid orange;
+.work > h2 {
+  font-size: 42px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.work > p {
+  border-left: 5px solid #e2e2e2;
+  font-size: 20px;
+  padding: 10px 30px;
+  margin-bottom: 40px;
+  font-style: italic;
+  color: #5e5f62;
+}
+
+.project > h3 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.project > p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
 }
 
 .app-header {
