@@ -30,9 +30,38 @@ main section {
 .intro {
   grid-column-start: 2;
   grid-column-end: 6;
-  grid-row-start: 3;
-  background-color:#c3c3c3;
-  width: 100%
+  grid-row-start: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content:space-evenly;
+  margin-top: 80px;
+}
+
+.intro-text {
+  max-width: 45%;
+}
+
+.intro-text > h2 {
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: 400;
+  margin: 10px 0 20px 0;
+}
+
+.intro-text > p {
+  font-size: 16px;
+  line-height: 28px;
+  opacity: .6;
+  font-weight: 400;
+}
+
+.intro > img {
+  width: 25%;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  /* border-radius: 50%; */
 }
 
 .career {
@@ -45,7 +74,7 @@ main section {
 .work {
   grid-column-start: 2;
   grid-column-end: 6;
-  grid-row-start: 1;
+  grid-row-start: 3;
 }
 
 .work > h2 {
