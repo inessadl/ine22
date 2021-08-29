@@ -1,10 +1,56 @@
-body {
-  font-family: Montserrat, sans-serif;
-  font-weight: 400;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .app {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+}
+
+main {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 10% 20% 20% 20% 20% 10%;
+  row-gap: 40px;
+  background-color: cadetblue;
+}
+
+main section {
+  border: 1px solid black;
+  height: auto;
+}
+
+.intro {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  background-color:#c3c3c3;
+  width: 100%
+}
+
+.career {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  background-color:bisque;
+}
+
+.work {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  background-color:burlywood;
+}
+
+.project {
+  border: 2px solid orange;
 }
 
 .app-header {
@@ -22,8 +68,30 @@ body {
   /* font-size: calc(10px + 2vmin); */
 }
 
-
 .app-footer {
-  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 40px 50px;
   border-top: .5px solid #c3c3c3;
+  background-color:#fff;
+}
+
+.app-footer > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.app-footer > ul li {
+  list-style-type: none;
+}
+
+.app-footer > ul li a {
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  margin: 20px;
+  color: #1a1b1f;
+  opacity: .6;
+  text-decoration: none;
+  text-transform: uppercase;
 }

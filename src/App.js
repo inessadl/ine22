@@ -7,22 +7,16 @@ import Work from './components/Work';
 
 function App() {
   return (
-    <div className="app">
-      <header className="app-header">
-        <Header />
-      </header>
-      <section className="intro">
+    <div className="app"> 
+      <Header />
+
+      <main>
         <Intro />
-      </section>
-      <section className="career">
-        <Career />
-      </section>
-      <section className="work">
         <Work />
-      </section>
-      <footer className="app-footer">
-        <Footer />
-      </footer>
+        <Career />
+      </main>
+
+      <Footer />
     </div>
   );
 }
