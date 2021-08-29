@@ -19,6 +19,7 @@ main {
   flex: 1;
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
+  /* grid-template-columns: 1fr 1fr; */
   row-gap: 40px;
 }
 
@@ -29,7 +30,7 @@ main section {
 
 .intro {
   grid-column-start: 2;
-  grid-column-end: 6;
+  grid-column-end: -2;
   grid-row-start: 1;
   width: 100%;
   display: flex;
@@ -38,11 +39,13 @@ main section {
   /* justify-content:space-evenly; */
   margin-top: 80px;
   column-gap: 60px;
+  grid-auto-columns: 2fr;
+
 }
 
-/* .intro-text {
+.intro-text {
   max-width: 45%;
-} */
+}
 
 .intro-text > h2 {
   font-size: 36px;
@@ -60,22 +63,28 @@ main section {
 
 .intro > img {
   /* min-width: 25%; */
-  grid-column-start: 2;
-  grid-column-end: 3;
+  /* grid-column-start: 2; */
+  /* grid-column-end: 3; */
   /* border-radius: 50%; */
+  width: 40%;
+  height: auto;
 }
 
 .career {
+  /* grid-column-start: 2; */
+  /* grid-column-end: 5; */
   grid-column-start: 2;
-  grid-column-end: 5;
+  grid-column-end: -2;
   grid-row-start: 2;
   background-color:bisque;
 }
 
 .work {
   grid-column-start: 2;
-  grid-column-end: 5;
+  grid-column-end: -2;
   grid-row-start: 3;
+  justify-self: center;
+  margin-bottom: 80px;
 }
 
 .work > h2 {
@@ -91,6 +100,10 @@ main section {
   margin-bottom: 40px;
   font-style: italic;
   color: #5e5f62;
+}
+
+.project {
+  margin: 40px 0;
 }
 
 .project > h3 {
