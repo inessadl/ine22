@@ -4,8 +4,8 @@ class Work extends Component {
     render () {
         return (
             <section className="work">
-                <h2>Portfolio</h2>
-                <p>The client’s name, images and project details must remain private due to a non-disclosure agreement.</p>
+                <h2>A lit bit of my work</h2>
+                <p><span>NOTE:</span> All the clients’ names, images and project details must remain private due to a non-disclosure agreement.</p>
 
                 <div className="project">
                     <h3>U.S. Top 10 Fitness Companies</h3>

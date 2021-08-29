@@ -14,6 +14,27 @@ body {
   font-weight: 300;
 }
 
+.app-header {
+  background-color: #000;
+  color: white;
+  font-size: 12px;
+  font-weight: 200;
+  text-transform: lowercase;
+  letter-spacing: .5px;
+  /* min-height: 10vh; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  padding: 0 60px;
+}
+
+.app-header > img {
+  height: 86px;
+  width: 86px;
+}
+
 main {
   color: #1a1b1f;
   flex: 1;
@@ -44,13 +65,13 @@ main section {
 }
 
 .intro-text {
-  max-width: 45%;
+  max-width: 50%;
 }
 
 .intro-text > h2 {
-  font-size: 36px;
-  line-height: 50px;
-  font-weight: 400;
+  font-size: 42px;
+  line-height: 56px;
+  font-weight: 600;
   margin: 10px 0 20px 0;
 }
 
@@ -59,14 +80,11 @@ main section {
   line-height: 28px;
   opacity: .6;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .intro > img {
-  /* min-width: 25%; */
-  /* grid-column-start: 2; */
-  /* grid-column-end: 3; */
-  /* border-radius: 50%; */
-  width: 40%;
+  width: 45%;
   height: auto;
 }
 
@@ -94,12 +112,16 @@ main section {
 }
 
 .work > p {
-  border-left: 5px solid #e2e2e2;
-  font-size: 20px;
-  padding: 10px 30px;
+  /* border-left: 5px solid #e2e2e2; */
+  font-size: 16px;
+  padding: 10px 30px 10px 0;
   margin-bottom: 40px;
-  font-style: italic;
+  /* font-style: italic; */
   color: #5e5f62;
+}
+
+.work > p span {
+  font-weight: 600;
 }
 
 .project {
@@ -119,20 +141,7 @@ main section {
   font-weight: 400;
 }
 
-.app-header {
-  background-color: #000;
-  color: white;
-  font-size: 12px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: .5px;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* align-items: center; */
-  /* font-size: calc(10px + 2vmin); */
-}
+
 
 .app-footer {
   display: flex;

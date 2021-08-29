@@ -2,7 +2,6 @@ import './App.css';
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
 import Intro from './components/Intro.js';
-import Career from './components/Career';
 import Work from './components/Work';
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
       <main>
         <Intro />
         <Work />
-        <Career />
       </main>
 
       <Footer />

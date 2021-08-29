@@ -4,7 +4,8 @@ class Header extends Component {
     render () {
         return (
             <header className="app-header">
-                <p>Header with logo</p>
+                <img src="logo.png" alt="Ine"></img>
+                <p>Inessa Luerce</p>
             </header>
         )
     }
