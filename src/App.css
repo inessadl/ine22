@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+}
+
+.app-header {
+  background-color: #000;
+  color: white;
+  font-size: 12px;
+  font-weight: 200;
+  text-transform: lowercase;
+  letter-spacing: .5px;
+  /* min-height: 10vh; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  padding: 0 60px;
+}
+
+.app-header > img {
+  height: 86px;
+  width: 86px;
+}
+
+main {
+  color: #1a1b1f;
+  flex: 1;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  /* grid-template-columns: 1fr 1fr; */
+  row-gap: 40px;
+}
+
+main section {
+  /* border: 1px solid black; */
+  height: auto;
+}
+
+.intro {
+  grid-column-start: 2;
+  grid-column-end: -2;
+  grid-row-start: 1;
+  width: 100%;
+  display: flex;
+  /* flex-direction: row-reverse; */
+  align-items: center;
+  /* justify-content:space-evenly; */
+  margin-top: 80px;
+  column-gap: 60px;
+  grid-auto-columns: 2fr;
+
+}
+
+.intro-text {
+  max-width: 50%;
+}
+
+.intro-text > h2 {
+  font-size: 42px;
+  line-height: 56px;
+  font-weight: 600;
+  margin: 10px 0 20px 0;
+}
+
+.intro-text > p {
+  font-size: 16px;
+  line-height: 28px;
+  opacity: .6;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.intro > img {
+  width: 45%;
+  height: auto;
+}
+
+.career {
+  /* grid-column-start: 2; */
+  /* grid-column-end: 5; */
+  grid-column-start: 2;
+  grid-column-end: -2;
+  grid-row-start: 2;
+  background-color:bisque;
+}
+
+.work {
+  grid-column-start: 2;
+  grid-column-end: -2;
+  grid-row-start: 3;
+  justify-self: center;
+  margin-bottom: 80px;
+}
+
+.work > h2 {
+  font-size: 42px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.work > p {
+  /* border-left: 5px solid #e2e2e2; */
+  font-size: 16px;
+  padding: 10px 30px 10px 0;
+  margin-bottom: 40px;
+  /* font-style: italic; */
+  color: #5e5f62;
+}
+
+.work > p span {
+  font-weight: 600;
+}
+
+.project {
+  margin: 40px 0;
+}
+
+.project > h3 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.project > p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+
+
+.app-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 40px 50px;
+  border-top: .5px solid #c3c3c3;
+  background-color:#fff;
+}
+
+.app-footer > ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.app-footer > ul li {
+  list-style-type: none;
+}
+
+.app-footer > ul li a {
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  margin: 20px;
+  color: #1a1b1f;
+  opacity: .6;
+  text-decoration: none;
+  text-transform: uppercase;
+}
