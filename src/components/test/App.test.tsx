@@ -8,7 +8,7 @@ Enzyme.configure({ adapter: new Adapter() });
 
 describe('App', () => {
   it('renders without crashing', () => {
-    const wrapper = shallow(<App />).contains(<h1>flourescent adolescent</h1>);
+    const wrapper = shallow(<App />).contains(<h1>text</h1>);
 
     expect(wrapper).toBeTruthy();
   })

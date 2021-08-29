@@ -1,5 +1,5 @@
 {
-  "name": "initial-react-setup",
+  "name": "inessadl.github.io",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/inessadl/intial-react-setup.git"
+    "url": "git+https://github.com/inessadl/inessadl.github.io.git"
   },
   "author": "Inessa Luerce",
   "license": "GPL-3.0-only",
   "bugs": {
-    "url": "https://github.com/inessadl/intial-react-setup/issues"
+    "url": "https://github.com/inessadl/inessadl.github.io/issues"
   },
-  "homepage": "https://github.com/inessadl/intial-react-setup#readme",
+  "homepage": "https://github.com/inessadl/inessadl.github.io#readme",
   "devDependencies": {
     "@babel/core": "7.5.5",
     "@babel/plugin-proposal-class-properties": "7.5.5",
