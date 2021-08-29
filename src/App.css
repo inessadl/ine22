@@ -18,7 +18,7 @@ main {
   color: #1a1b1f;
   flex: 1;
   display: grid;
-  grid-template-columns: 10% 20% 20% 20% 20% 10%;
+  grid-template-columns: 20% 20% 20% 20% 20%;
   row-gap: 40px;
 }
 
@@ -33,15 +33,16 @@ main section {
   grid-row-start: 1;
   width: 100%;
   display: flex;
-  flex-direction: row-reverse;
+  /* flex-direction: row-reverse; */
   align-items: center;
-  justify-content:space-evenly;
+  /* justify-content:space-evenly; */
   margin-top: 80px;
+  column-gap: 60px;
 }
 
-.intro-text {
+/* .intro-text {
   max-width: 45%;
-}
+} */
 
 .intro-text > h2 {
   font-size: 36px;
@@ -58,7 +59,7 @@ main section {
 }
 
 .intro > img {
-  width: 25%;
+  /* min-width: 25%; */
   grid-column-start: 2;
   grid-column-end: 3;
   /* border-radius: 50%; */
@@ -66,14 +67,14 @@ main section {
 
 .career {
   grid-column-start: 2;
-  grid-column-end: 6;
+  grid-column-end: 5;
   grid-row-start: 2;
   background-color:bisque;
 }
 
 .work {
   grid-column-start: 2;
-  grid-column-end: 6;
+  grid-column-end: 5;
   grid-row-start: 3;
 }
 
