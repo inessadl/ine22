@@ -61,7 +61,6 @@ main section {
   margin-top: 80px;
   column-gap: 60px;
   grid-auto-columns: 2fr;
-
 }
 
 .intro-text {
@@ -142,7 +141,6 @@ main section {
 }
 
 
-
 .app-footer {
   display: flex;
   justify-content: flex-end;
@@ -169,4 +167,45 @@ main section {
   opacity: .6;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+@media (max-width: 720px) {
+  .intro {
+    flex-wrap: wrap;
+    margin: 0px 40px;
+  }
+
+  .intro > img {
+    max-width: 90%;
+  }
+
+  .intro-text {
+    max-width: 90%;
+  }
+
+  .career, .work, .intro {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    margin: 0px 40px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .intro {
+    flex-wrap: wrap;
+  }
+
+  .intro > img {
+    max-width: 80%;
+  }
+
+  .intro-text {
+    max-width: 80%;
+  }
+
+  .career, .work, .intro {
+    grid-column-start: 1;
+    grid-column-end: -1;
+    margin: 80px 80px 40px;
+  }
 }
