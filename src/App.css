@@ -26,7 +26,7 @@ body {
   align-items: center;
   font-size: 1.2rem;
   font-weight: lighter;
-  padding: 0 60px;
+  padding: 0 20px;
 }
 
 .app-header > img {
@@ -57,11 +57,17 @@ main section {
   flex-wrap: wrap;
 }
 
+.intro > img {
+  width: 100%;
+}
+
 @media (max-width: 414px) {
   .intro, .work {
     grid-column-start: 1;
     grid-column-end: -1;
   }
+
+  
 }
 
 @media (max-width: 720px) {
@@ -75,6 +81,10 @@ main section {
   .intro, .work {
     grid-column-start: 3;
     grid-column-end: -3;
+  }
+
+  .app-header {
+    padding: 0 60px;
   }
 }
 
@@ -90,6 +100,10 @@ main section {
   .intro > img {
     width: 45%;
     height: max-content;
+  }
+
+  .app-header {
+    padding: 0 60px;
   }
 }
 
