@@ -7,14 +7,14 @@ import Work from './components/Work';
 function App() {
   return (
     <div className="app"> 
-      <Header />
+      <Header></Header>
 
       <main>
-        <Intro />
-        <Work />
+        <Intro></Intro>
+        <Work></Work>
       </main>
 
-      <Footer />
+      <Footer></Footer>
     </div>
   );
 }
