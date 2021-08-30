@@ -90,6 +90,7 @@ main section {
 
   .intro > img {
     width: 45%;
+    height: auto;
   }
 }
 
