@@ -61,7 +61,6 @@ main section {
   .intro, .work {
     grid-column-start: 1;
     grid-column-end: -1;
-    /* margin: 20px 24px; */
   }
 }
 
@@ -98,7 +97,6 @@ main section {
   font-size: 42px;
   line-height: 56px;
   font-weight: 600;
-  /* margin: 10px 0 20px 0; */
 }
 
 .intro-text-paragraph {

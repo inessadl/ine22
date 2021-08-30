@@ -6,7 +6,9 @@ class Intro extends Component {
             <section className="intro">
                 <div className="intro-text">
                     <p><span>Hey there!</span></p>
+
                     <h2>I'm Inessa</h2>
+                    
                     <p className="intro-text-paragraph">
                         I’m a Product Designer based in Porto Alegre, Brazil. I'm currently working at Thoughtworks, in a very collaborative team. I believe that transparency, collaboration and diversity are the keys to build an awesome product. 
                     </p>
