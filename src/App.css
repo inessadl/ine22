@@ -46,7 +46,6 @@ main section {
   height: auto;
 }
 
-
 .intro {
   grid-row-start: 1;
   width: 100%;
@@ -94,10 +93,6 @@ main section {
   }
 }
 
-/* .intro-text {
-  max-width: 50%;
-} */
-
 .intro-text > h2 {
   font-size: 42px;
   line-height: 56px;
@@ -118,22 +113,6 @@ main section {
   font-weight: 400;
   opacity: .6;
 }
-
-/* .intro > img {
-  max-width: 50%;
-  height: auto;
-} */
-
-/* .intro, .work {
-  grid-column-start: 3;
-  grid-column-end: -3;
-} */
-
-/* .work {
-  grid-row-start: 3;
-  justify-self: center;
-  margin-bottom: 80px;
-} */
 
 .work > h2 {
   font-size: 42px;
