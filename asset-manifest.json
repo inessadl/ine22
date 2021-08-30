@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/inessadl.github.io/static/css/main.012d05a7.chunk.css",
+    "main.css": "/inessadl.github.io/static/css/main.9eb91303.chunk.css",
     "main.js": "/inessadl.github.io/static/js/main.6b318d68.chunk.js",
     "main.js.map": "/inessadl.github.io/static/js/main.6b318d68.chunk.js.map",
     "runtime-main.js": "/inessadl.github.io/static/js/runtime-main.059ab7ae.js",
@@ -10,13 +10,13 @@
     "static/js/3.aebb743f.chunk.js": "/inessadl.github.io/static/js/3.aebb743f.chunk.js",
     "static/js/3.aebb743f.chunk.js.map": "/inessadl.github.io/static/js/3.aebb743f.chunk.js.map",
     "index.html": "/inessadl.github.io/index.html",
-    "static/css/main.012d05a7.chunk.css.map": "/inessadl.github.io/static/css/main.012d05a7.chunk.css.map",
+    "static/css/main.9eb91303.chunk.css.map": "/inessadl.github.io/static/css/main.9eb91303.chunk.css.map",
     "static/js/2.d6dfcf01.chunk.js.LICENSE.txt": "/inessadl.github.io/static/js/2.d6dfcf01.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.059ab7ae.js",
     "static/js/2.d6dfcf01.chunk.js",
-    "static/css/main.012d05a7.chunk.css",
+    "static/css/main.9eb91303.chunk.css",
     "static/js/main.6b318d68.chunk.js"
   ]
 }
