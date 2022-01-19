@@ -10,7 +10,7 @@ class Intro extends Component {
                     <h2>I'm Inessa</h2>
                     
                     <p className="intro-text-paragraph">
-                        I’m a Product Designer based in Porto Alegre, Brazil. I'm currently working at Thoughtworks, in a very collaborative team. I believe that transparency, collaboration and diversity are the keys to build an awesome product. 
+                        I’m a Product Designer based in Porto Alegre, Brazil. I'm currently working for United Nations Development Programme. I believe that transparency, collaboration and diversity are the keys to build an awesome product. 
                     </p>
 
                     <p className="intro-text-paragraph">
