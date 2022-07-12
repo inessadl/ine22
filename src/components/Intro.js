@@ -10,7 +10,7 @@ class Intro extends Component {
                     <h2>I'm Inessa</h2>
                     
                     <p className="intro-text-paragraph">
-                        I’m a Product Designer based in Porto Alegre, Brazil. I'm currently working for United Nations Development Programme. I believe that transparency, collaboration and diversity are the keys to build an awesome product. 
+                        I’m a Product Designer based in Porto Alegre, Brazil. I'm currently working for the United Nations Development Programme (UNDP). I believe that transparency, collaboration and diversity are the keys to build an awesome product. 
                     </p>
 
                     <p className="intro-text-paragraph">
@@ -22,7 +22,7 @@ class Intro extends Component {
                     </p>
                 </div>
 
-                <img src="inessa.jpg" alt="Inessa smiling, using glasses and a striped shirt"></img>
+                <img src="inessa.jpg" alt="Inessa smiling, wearing a green scarf and a black coat"></img>
             </section>
         )
     }

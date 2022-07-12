@@ -8,6 +8,22 @@ class Work extends Component {
                 <p><span>NOTE:</span> All the clients’ names, images and project details must remain private due to a non-disclosure agreement.</p>
 
                 <div className="project">
+                    <h3>United Nations Development Programme</h3>
+                    <p>
+                        An initiative of the National Council of Justice (CNJ) and the United Nations Development Programme (UNDP), The "Fazendo Justiça" program aims to overcome the historical challenges that characterize deprivation of liberty in Brazil.
+                    </p>
+
+                    <p>
+                        As the only Designer of the project, I helped the manager with product metrics and design/product strategy. I was responsible for all visual production, including branding, prototyping and presentations.
+                    </p>
+
+                    <p>
+                        I started the Design System, in which I created the component library on Figma, defined the theme and I'm currently customizing the frontend project according to the DS definitions. 
+                    </p>
+
+                </div>
+
+                <div className="project">
                     <h3>U.S. Top 10 Fitness Companies</h3>
                     <p>
                         United States franchisor and operator of fitness centers with more than 2000 franchisees and over 14.4 million users.
