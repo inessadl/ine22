@@ -22,7 +22,7 @@ class Intro extends Component {
                     </p>
                 </div>
 
-                <img src="inessa.jpg" alt="Inessa smiling, wearing a green scarf and a black coat"></img>
+                <img src="inessaluerce.jpg" alt="Inessa smiling, wearing a green scarf and a black coat"></img>
             </section>
         )
     }
