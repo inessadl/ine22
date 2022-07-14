@@ -6,6 +6,16 @@
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
+    },
+    {
+      "src": "inessa.jpg",
+      "type": "image/jpg",
+      "sizes": "586x586"
+    },
+    {
+      "src": "logo.png",
+      "type": "image/png",
+      "sizes": "1687x1687"
     }
   ],
   "start_url": ".",
